@@ -66,7 +66,7 @@ function Login() {
     <>
       <Button
         variant="dark"
-        style={{ backgroundColor: "darkmagenta" }}
+        style={{ backgroundColor: "dark grey" }}
         onClick={() => setShow(true)}
       >
         <AccountCircleIcon style={{ fontSize: "40px" }} />
@@ -94,7 +94,7 @@ function Login() {
               type="text"
               value={email}
               onChange={handleEmailChange}
-              placeholder="Username/Email"
+              placeholder="Email"
               style={{ width: "345px" }}
             />
             <br /> <br />
@@ -116,7 +116,7 @@ function Login() {
               {loading ? <CircularProgress size={20} /> : "Login"}
             </Button>
           </form>
-          
+           &nbsp; &nbsp; &nbsp; Create Account
           <Signup />
         </Modal.Body>
       </Modal>

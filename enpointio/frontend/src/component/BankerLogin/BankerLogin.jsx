@@ -60,7 +60,7 @@ function BankerLogin() {
     <>
       <Button
         variant="dark"
-        style={{ backgroundColor: "darkmagenta" }}
+        style={{ backgroundColor: "dark grey" }}
         onClick={() => setShow(true)}
       >
         <PersonIcon style={{ fontSize: "40px" }} />
@@ -110,8 +110,7 @@ function BankerLogin() {
               {loading ? <CircularProgress size={20} /> : "Banker Login"}
             </Button>
           </form>
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Create Account
+           &nbsp; &nbsp; &nbsp; Create Account
           <BankerSignup />
         </Modal.Body>
       </Modal>

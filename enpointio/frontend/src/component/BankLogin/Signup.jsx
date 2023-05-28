@@ -77,7 +77,7 @@ function Signup() {
             id="example-custom-modal-styling-title"
             style={{ textAlign: "center" }}
           >
-            New Account
+            Create an Account in Eco Bank
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>

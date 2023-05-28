@@ -2,22 +2,22 @@ import React from "react";
 function NavBar(props) {
   var divStyle = {
     padding: "20px",
-    backgroundColor: "black",
+    backgroundColor: "white",
     textAlign: "right",
     display: "flex",
     alignItems: "center",
   };
   var aStyle = {
     textAlign: "start",
-    color: "white",
+    color: "black",
     marginRight: "50px",
     textDecoration: "none",
   };
   return (
     <>
       <div style={divStyle}>
-        <h1 style={aStyle}>EPBank </h1>
-    
+        <h1 style={aStyle}>Eco Bank</h1>
+        
       </div>
     </>
   );
